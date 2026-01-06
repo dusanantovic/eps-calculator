@@ -109,7 +109,6 @@ input[type="number"]:focus {
   border-color: #667eea;
   background: #fff;
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-  transform: translateY(-2px);
 }
 
 input[type="number"]:hover {
@@ -164,14 +163,8 @@ button:active {
 .spec {
   margin: 10px 0;
   padding: 8px 0;
-  transition: all 0.2s ease;
 }
 
-.spec:hover {
-  background: rgba(255,255,255,0.5);
-  padding-left: 10px;
-  border-radius: 5px;
-}
 
 .label {
   font-weight: 600;
@@ -279,24 +272,6 @@ hr {
   }
 }
 
-/* Scrollbar styling */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
-}
 
 /* Footer */
 .footer {
