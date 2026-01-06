@@ -227,6 +227,10 @@ function App() {
           }}
         />
       </div>
+
+      <footer className="footer">
+        Powered by <a href="https://treeonix.com" target="_blank" rel="noopener noreferrer">Treeonix</a>
+      </footer>
     </div>
   );
 }
